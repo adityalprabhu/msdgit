@@ -10,7 +10,7 @@ public class FindRange implements Range{
 		
 	    List<Integer> listOfNumbers = new ArrayList<Integer>();
 	    for(int i=start+1;i<end;i++) {
-	    	if(i%2!=0)
+	    	if(i%2==0)
 	    	listOfNumbers.add(i);
 	    }
 		return listOfNumbers;
